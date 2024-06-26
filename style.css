@@ -1,0 +1,47 @@
+.container{
+   height: 80vh;
+   width: 50vh;
+   background-color: rgb(110, 105, 105);
+   position: relative;
+   border-radius: 4vh;
+   top: 10vh;
+   left: 40vw;
+}
+.button{
+   height: 10vh;
+   width: 10vh;
+   border-radius: 100%;
+   border-style: none;
+   position: relative;
+   top: 16vh;
+   left: 4vh;
+   font-size: 3vh;
+   text-align:center ;
+   background-color: rgba(65, 66, 66, 0.964);
+color: beige;
+}
+.button:active{
+border-radius: 20%;
+border: 1.3vh solid rgb(77, 60, 138);
+}
+.input{
+   width: 45vh;
+   height: 10vh;
+   position: relative;
+   top: 10vh;
+   font-size: 4vh;
+text-align: right;
+   position: relative;
+   
+   left: 2vh;
+   background-color: rgb(77, 71, 71);;
+   color: white;
+   text-decoration: none;
+
+}
+
+.cancel{
+   width: 41vh; 
+   display: flex;
+   justify-content: space-between;
+}
